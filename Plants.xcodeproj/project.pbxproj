@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E3B627BEDB0472EBFEC8436 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D479D387BC92427EB5E6F9EB /* libPods.a */; };
+		F8C44CC2159A3A75005CCE41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C44CC1159A3A75005CCE41 /* UIKit.framework */; };
+		F8C44CC4159A3A75005CCE41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C44CC3159A3A75005CCE41 /* Foundation.framework */; };
+		F8C44CC6159A3A75005CCE41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C44CC5159A3A75005CCE41 /* CoreGraphics.framework */; };
+		F8C44CCC159A3A75005CCE41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8C44CCA159A3A75005CCE41 /* InfoPlist.strings */; };
+		F8C44CCE159A3A75005CCE41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C44CCD159A3A75005CCE41 /* main.m */; };
+		F8C44CD2159A3A75005CCE41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C44CD1159A3A75005CCE41 /* AppDelegate.m */; };
+		F8C44CE3159A3AB5005CCE41 /* Plant.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C44CDF159A3AB5005CCE41 /* Plant.m */; };
+		F8C44CE4159A3AB5005CCE41 /* PlantsAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C44CE0159A3AB5005CCE41 /* PlantsAPIClient.m */; };
+		F8C44CEB159A3B12005CCE41 /* PlantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C44CEA159A3B12005CCE41 /* PlantsViewController.m */; };
+		F8FF2C68159E2E3900E0DF98 /* PlantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FF2C66159E2E3900E0DF98 /* PlantViewController.m */; };
+		F8FF2C69159E2E3900E0DF98 /* PlantView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FF2C67159E2E3900E0DF98 /* PlantView.xib */; };
+		F8FF2C72159E5C8700E0DF98 /* PlantsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FF2C71159E5C8600E0DF98 /* PlantsView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DC20A45C656484C81F28AED /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		D479D387BC92427EB5E6F9EB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C44CBD159A3A75005CCE41 /* Plants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plants.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C44CC1159A3A75005CCE41 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8C44CC3159A3A75005CCE41 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8C44CC5159A3A75005CCE41 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8C44CC9159A3A75005CCE41 /* Plants-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Plants-Info.plist"; sourceTree = "<group>"; };
+		F8C44CCB159A3A75005CCE41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8C44CCD159A3A75005CCE41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8C44CCF159A3A75005CCE41 /* Plants-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Plants-Prefix.pch"; sourceTree = "<group>"; };
+		F8C44CD0159A3A75005CCE41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8C44CD1159A3A75005CCE41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8C44CDF159A3AB5005CCE41 /* Plant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plant.m; sourceTree = "<group>"; };
+		F8C44CE0159A3AB5005CCE41 /* PlantsAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantsAPIClient.m; sourceTree = "<group>"; };
+		F8C44CE1159A3AB5005CCE41 /* Plant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plant.h; sourceTree = "<group>"; };
+		F8C44CE2159A3AB5005CCE41 /* PlantsAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantsAPIClient.h; sourceTree = "<group>"; };
+		F8C44CE9159A3B12005CCE41 /* PlantsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantsViewController.h; sourceTree = "<group>"; };
+		F8C44CEA159A3B12005CCE41 /* PlantsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantsViewController.m; sourceTree = "<group>"; };
+		F8FF2C65159E2E3900E0DF98 /* PlantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantViewController.h; sourceTree = "<group>"; };
+		F8FF2C66159E2E3900E0DF98 /* PlantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantViewController.m; sourceTree = "<group>"; };
+		F8FF2C67159E2E3900E0DF98 /* PlantView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlantView.xib; sourceTree = "<group>"; };
+		F8FF2C71159E5C8600E0DF98 /* PlantsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlantsView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8C44CBA159A3A75005CCE41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C44CC2159A3A75005CCE41 /* UIKit.framework in Frameworks */,
+				F8C44CC4159A3A75005CCE41 /* Foundation.framework in Frameworks */,
+				F8C44CC6159A3A75005CCE41 /* CoreGraphics.framework in Frameworks */,
+				3E3B627BEDB0472EBFEC8436 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8C44CB2159A3A75005CCE41 = {
+			isa = PBXGroup;
+			children = (
+				F8C44CC7159A3A75005CCE41 /* Plants */,
+				F8C44CC0159A3A75005CCE41 /* Frameworks */,
+				F8C44CBE159A3A75005CCE41 /* Products */,
+				2DC20A45C656484C81F28AED /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		F8C44CBE159A3A75005CCE41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8C44CBD159A3A75005CCE41 /* Plants.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8C44CC0159A3A75005CCE41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8C44CC1159A3A75005CCE41 /* UIKit.framework */,
+				F8C44CC3159A3A75005CCE41 /* Foundation.framework */,
+				F8C44CC5159A3A75005CCE41 /* CoreGraphics.framework */,
+				D479D387BC92427EB5E6F9EB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8C44CC7159A3A75005CCE41 /* Plants */ = {
+			isa = PBXGroup;
+			children = (
+				F8C44CD0159A3A75005CCE41 /* AppDelegate.h */,
+				F8C44CD1159A3A75005CCE41 /* AppDelegate.m */,
+				F8C44CE2159A3AB5005CCE41 /* PlantsAPIClient.h */,
+				F8C44CE0159A3AB5005CCE41 /* PlantsAPIClient.m */,
+				F8C44CE1159A3AB5005CCE41 /* Plant.h */,
+				F8C44CDF159A3AB5005CCE41 /* Plant.m */,
+				F8C44CE9159A3B12005CCE41 /* PlantsViewController.h */,
+				F8C44CEA159A3B12005CCE41 /* PlantsViewController.m */,
+				F8FF2C71159E5C8600E0DF98 /* PlantsView.xib */,
+				F8FF2C65159E2E3900E0DF98 /* PlantViewController.h */,
+				F8FF2C66159E2E3900E0DF98 /* PlantViewController.m */,
+				F8FF2C67159E2E3900E0DF98 /* PlantView.xib */,
+				F8C44CC8159A3A75005CCE41 /* Supporting Files */,
+			);
+			path = Plants;
+			sourceTree = "<group>";
+		};
+		F8C44CC8159A3A75005CCE41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8C44CC9159A3A75005CCE41 /* Plants-Info.plist */,
+				F8C44CCA159A3A75005CCE41 /* InfoPlist.strings */,
+				F8C44CCD159A3A75005CCE41 /* main.m */,
+				F8C44CCF159A3A75005CCE41 /* Plants-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8C44CBC159A3A75005CCE41 /* Plants */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C44CD5159A3A75005CCE41 /* Build configuration list for PBXNativeTarget "Plants" */;
+			buildPhases = (
+				F8C44CB9159A3A75005CCE41 /* Sources */,
+				F8C44CBA159A3A75005CCE41 /* Frameworks */,
+				F8C44CBB159A3A75005CCE41 /* Resources */,
+				D1C061863D31402A9087A6DA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plants;
+			productName = Plants;
+			productReference = F8C44CBD159A3A75005CCE41 /* Plants.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8C44CB4159A3A75005CCE41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F8C44CB7159A3A75005CCE41 /* Build configuration list for PBXProject "Plants" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8C44CB2159A3A75005CCE41;
+			productRefGroup = F8C44CBE159A3A75005CCE41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8C44CBC159A3A75005CCE41 /* Plants */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8C44CBB159A3A75005CCE41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C44CCC159A3A75005CCE41 /* InfoPlist.strings in Resources */,
+				F8FF2C69159E2E3900E0DF98 /* PlantView.xib in Resources */,
+				F8FF2C72159E5C8700E0DF98 /* PlantsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D1C061863D31402A9087A6DA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8C44CB9159A3A75005CCE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C44CCE159A3A75005CCE41 /* main.m in Sources */,
+				F8C44CD2159A3A75005CCE41 /* AppDelegate.m in Sources */,
+				F8C44CE3159A3AB5005CCE41 /* Plant.m in Sources */,
+				F8C44CE4159A3AB5005CCE41 /* PlantsAPIClient.m in Sources */,
+				F8C44CEB159A3B12005CCE41 /* PlantsViewController.m in Sources */,
+				F8FF2C68159E2E3900E0DF98 /* PlantViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8C44CCA159A3A75005CCE41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C44CCB159A3A75005CCE41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8C44CD3159A3A75005CCE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8C44CD4159A3A75005CCE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8C44CD6159A3A75005CCE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC20A45C656484C81F28AED /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plants/Plants-Prefix.pch";
+				INFOPLIST_FILE = "Plants/Plants-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8C44CD7159A3A75005CCE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC20A45C656484C81F28AED /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plants/Plants-Prefix.pch";
+				INFOPLIST_FILE = "Plants/Plants-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8C44CB7159A3A75005CCE41 /* Build configuration list for PBXProject "Plants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C44CD3159A3A75005CCE41 /* Debug */,
+				F8C44CD4159A3A75005CCE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C44CD5159A3A75005CCE41 /* Build configuration list for PBXNativeTarget "Plants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C44CD6159A3A75005CCE41 /* Debug */,
+				F8C44CD7159A3A75005CCE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8C44CB4159A3A75005CCE41 /* Project object */;
+}
