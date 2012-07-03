@@ -2,7 +2,8 @@
 
 #import "AFJSONRequestOperation.h"
 
-static NSString * const kPlantsAPIClientBaseURLString = @"http://localhost:5000/";
+//static NSString * const kPlantsAPIClientBaseURLString = @"http://localhost:5000/";
+static NSString * const kPlantsAPIClientBaseURLString = @"http://stark-galaxy-3381.herokuapp.com/";
 
 @implementation PlantsAPIClient
 
